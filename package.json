@@ -1,0 +1,27 @@
+{
+  "name": "api_server",
+  "version": "1.0.0",
+  "description": "ReactMaker json server for demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactMaker/api_server.git"
+  },
+  "keywords": [
+    "react",
+    "json",
+    "api"
+  ],
+  "author": "ReactMaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReactMaker/api_server/issues"
+  },
+  "homepage": "https://github.com/ReactMaker/api_server#readme",
+  "dependencies": {
+    "json-server": "^0.11.2"
+  }
+}
