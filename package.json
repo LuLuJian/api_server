@@ -4,7 +4,8 @@
   "description": "ReactMaker json server for demo",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "json-server --watch db.json",
+    "heroku": "node heroku.js"
   },
   "repository": {
     "type": "git",
