@@ -25,3 +25,8 @@ $ npm start                     # Compile and launch
 如果一切成功，就會看到以下畫面
 
 ![Imgur](https://i.imgur.com/L8lHhlh.png)
+
+## 怎麼放新的資料進去
+
+1. 將新的 json 放入 db/ 資料夾內 (必須式陣列型態的)
+2. 修改 db.js 
