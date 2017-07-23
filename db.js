@@ -1,7 +1,9 @@
 const cart = require('./db/cart.json');
+const album = require('./db/album.json');
 
 const db = {
-  cart
+  cart,
+  album,
 };
 
 module.exports = () => db;
